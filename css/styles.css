@@ -1,9 +1,9 @@
 #registerIn {
-  display: none;
+  display: none; /* hides the register form */
   border: 1px solid black;
 }
 #radio {
-  display: none;
+  display: none; /* hides the main form */
 }
 .registerTwo {
   display: none;
