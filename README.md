@@ -34,3 +34,23 @@ NO know bugs identified at the moment
 | Create a variable to store the total result and assign initial vale to 0 | 2,7,9             | 18                       |
 | Displays the Total result on the document                                | 10,0,10,0         | You scored 20/40         |
 | Takes inputs and converts the total score into percentage                | 10,0,10,0         | 50%                      |
+
+## Technologies Used
+
+## main languages used are
+
+- HTML5
+- CSS
+- jQuery
+- JavaSCript
+
+## You can view active website here
+
+## Support and contact details
+
+get me at isaacbihengoto@gmail.com
+
+### License
+
+_License is under MIT 2019_
+Copyright (c) 2019 **isaac bihengoto**
