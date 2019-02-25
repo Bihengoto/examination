@@ -1,7 +1,7 @@
 //Business Logic
 function summation(allQuiz1, allQuiz2, allQuiz3, allQuiz4) {
-  var total = [];
-  total.push(allQuiz1, allQuiz2, allQuiz3, allQuiz4);
+  var total = []; // created an array to place the elements in an array
+  total.push(allQuiz1, allQuiz2, allQuiz3, allQuiz4); //add the elements
   var result = 0;
   for (var init = 0; init < total.length; init++) {
     result += total[init];
@@ -42,7 +42,7 @@ $(document).ready(function() {
     $("#radio").hide();
     $(".registerTwo").show();
 
-    var sum = summation(answerOne, answerTwo, answerThree, answerFour);
+    var sum = summation(answerOne, answerTwo, answerThree, answerFour); //called the function from the business logic
     var percent = viewInPercent(sum);
 
     $("#marks").text(percent);
