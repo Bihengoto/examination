@@ -34,6 +34,7 @@ NO know bugs identified at the moment
 | Create a variable to store the total result and assign initial vale to 0 | 2,7,9             | 18                       |
 | Displays the Total result on the document                                | 10,0,10,0         | You scored 20/40         |
 | Takes inputs and converts the total score into percentage                | 10,0,10,0         | 50%                      |
+| Takes inputs and outputs in the main page                                | 10,0,10,0         | 50%                      |
 
 ## Technologies Used
 
