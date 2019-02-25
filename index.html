@@ -7,7 +7,56 @@
     <title>JavaScript Examination</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="jumbotron"><h1>JavaScript Examination</h1></div>
+      <div class="row">
+        <div id="registerTwo" class="col-md-6">
+          <p>
+            Kindly <strong>REGISTER</strong> before you begin
+            <strong> THE TEST </strong>
+          </p>
+          <p>
+            <strong>FINALLY YOU HAVE MADE IT..</strong> on completing Your
+            JavaScript course, please register first to start the test
+          </p>
+          <button
+            id="start"
+            class="btn btn-success"
+            type="button"
+            name="button"
+          >
+            Register Please
+          </button>
+        </div>
+        <div id="registerOne" class="col-md-6">
+          <form id="registerIn" action="index.html" method="post">
+            <div class="form-group">
+              <label for="name">Full name</label>
+              <input
+                id="fullname"
+                type="text"
+                class="form-control"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                id="email"
+                type="email"
+                class="form-control"
+                placeholder="Email address"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-warning" name="button">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
