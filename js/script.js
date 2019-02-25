@@ -1,3 +1,20 @@
+//Business Logic
+function summation(allQuiz1, allQuiz2, allQuiz3, allQuiz4) {
+  var total = [];
+  total.push(allQuiz1, allQuiz2, allQuiz3, allQuiz4);
+  var result = 0;
+  for (var init = 0; init < total.length; init++) {
+    result += total[init];
+  }
+  return result;
+}
+
+function viewInPercent(value) {
+  var displayPercentage = (value / 40) * 100;
+  return displayPercentage;
+}
+
+//user interface logic
 $(document).ready(function() {
   $("button#start").click(function() {
     $("form#registerIn").slideDown(1000);
@@ -25,8 +42,8 @@ $(document).ready(function() {
     $("#radio").hide();
     $(".registerTwo").show();
 
-    var sum = answerOne + answerTwo + answerThree + answerFour;
-    var percent = (sum / 40) * 100;
+    var sum = summation(answerOne, answerTwo, answerThree, answerFour);
+    var percent = viewInPercent(sum);
 
     $("#marks").text(percent);
 
