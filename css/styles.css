@@ -1,5 +1,6 @@
 #registerIn {
   display: none;
+  border: 1px solid black;
 }
 #radio {
   display: none;
